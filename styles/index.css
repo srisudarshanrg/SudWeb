@@ -1,0 +1,196 @@
+body {
+    background-image: linear-gradient(to bottom, orange, red);
+}
+
+.navbar {
+    background-color: #FF3030;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    -webkit-box-shadow: 0 0 30px rgb(196, 78, 65);
+    box-shadow: 0 0 30px rgb(196, 78, 65);
+}
+
+.web-brand .brand-link h2, .web-brand .brand-link img {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.web-brand .brand-link h2 {
+    font-size: 1.6rem;
+    margin-left: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+.other-link {
+    margin-top: 3px;
+    margin-left: 170px;
+}
+
+/* Section 1: Declare Name */
+.declare-name {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+}
+
+.declare-name img {
+    margin-left: 85px;
+}
+
+/* Section 2: Basic Info */
+.basic-info {
+    font-family: 'Poppins', sans-serif;
+    padding: 35px;
+    text-align: center;
+}
+
+.basic-info img {
+    border-radius: 100%;
+    margin-left: 12px;
+}
+
+.basic-info img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.basic-info ul {
+    font-size: 1.1rem;
+    list-style: none;
+    line-height: 1.5;
+}
+
+/* Section 3: My Skills */
+.my-skills {
+    width: 50%;
+    margin: 110px auto 110px auto;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-skills h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+}
+
+.my-skills h3 {
+    color: orange;
+    font-weight: 900;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Section-4: Contact Me */
+.contact-me {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-me h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    font-weight: 900;
+}
+
+.contact-me p {
+    font-size: 1.3rem;
+}
+
+.contact-me p a {
+    color: orange;
+}
+
+.contact-me p a:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
+.contact-me-btn {
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, orange, red);
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.contact-me-btn:hover {
+    background-image: linear-gradient(to bottom, red, orange);
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+/* Section 5: Copyright */
+.copyright {
+    text-align: center;
+    padding: 35px;
+}
+
+.copyright a {
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.copyright a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.copyright p {
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: goldenrod;
+}
+
+@media (max-width: 575px) {
+    .navbar a {
+        font-size: 0.8rem;
+    }
+
+    .other-link {
+        margin-top: 11px;
+    }
+}
+
+@media (max-width: 540px) {
+    .navbar a {
+        font-size: 15px;
+    }
+
+    .other-link {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .declare-name img {
+        width: 60%;
+    }
+}
