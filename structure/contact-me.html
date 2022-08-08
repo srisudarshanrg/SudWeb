@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Know all about me in just one click! On https://srisudarshanrg.github.io/SudWeb/">
+    <meta name="author" content="R Sri Sudarshan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>R Sri Sudarshan's Autobiographical Website!</title>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="F:\Sri\Web Development\SudWeb\styles\contact-me-styles.css">
+    <!-- FAVICON -->
+    <link rel="icon" href="F:\Sri\Web Development\SudWeb\images\favicon\favicon.png">
+    <!-- FONTS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Domine:wght@400;500;600;700&family=Indie+Flower&family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+    </style>
+</head>
+<body>
+    <script src="F:\Sri\Web Development\SudWeb\functions\contact-me-functions.js"></script>
+
+    <div class="navbar">
+        <div class="brand">
+            <a href="F:\Sri\Web Development\SudWeb\index.html"><h2><img src="F:\Sri\Web Development\SudWeb\images\favicon\favicon.png" alt="" width="40">  Sudarshan</h2></a>
+        </div>
+        <div class="other-links">
+            <a href="F:\Sri\Web Development\SudWeb\index.html"><h2>Home</h2></a>
+        </div>
+    </div>
+
+    <!-- SECTION 1: MY ACCOUNTS -->
+    <section class="accounts-sect">
+        <h2>I am on...</h2>
+        <div class="accounts">
+            <a href="https://www.youtube.com/channel/UCE6IJa0YA-ALKfnaHe9zKoQ" role="button" class="yt"><img src="F:\Sri\Web Development\SudWeb\images\logos\youtube.png" alt="" width="20"> YouTube</a>
+            <a href="mailto: srisudarshanrg@gmail.com" role="button" class="gmail"><img src="F:\Sri\Web Development\SudWeb\images\logos\gmail.png" alt="" width="20"> Gmail</a>
+            <a href="github.html" role="button" class="ghub"><img src="F:\Sri\Web Development\SudWeb\images\logos\github.png" alt="" width="20"> Github</a>
+            <button onclick="discordId()" class="dc"><img src="F:\Sri\Web Development\SudWeb\images\logos\discord.png" alt="" width="20"> Discord</button>
+        </div>
+    </section> 
+    
+    <br><br><hr style="border-color: #fff; border-width: 5px; width: 80%;" noshade><br><h1 style="text-align: center; font-family: 'Montserrat Alternates', sans-serif;">Contact Me Page</h1><br>
+
+    <section class="contact-me-page">
+        <form action="mailto: srisudarshanrg@gmail.com">
+            <label for="#name" class="labels">Your Name Please: </label>
+            <input type="text" id="name">
+
+            <br><br>
+            
+            <label for="#email"> Your Email Id Please: </label>
+            <input type="email" id="email">
+
+            <h3>Any Message For Me?</h3>
+            <textarea name="msg" id="msg" cols="80" rows="15"></textarea>
+
+            <br><br>
+
+            <input type="submit" role="button" value="Send" class="submit-btn">
+        </form>
+    </section>
+
+</body>
+</html>
